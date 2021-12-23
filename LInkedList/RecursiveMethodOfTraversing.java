@@ -1,8 +1,9 @@
 package LInkedList;
-class node{
+
+class Node{
 	int data;
-	node next;
-	node(int x){
+	Node next;
+	Node(int x){
 		data = x;
 		next = null;	
 	}	
@@ -11,15 +12,15 @@ class node{
 public class RecursiveMethodOfTraversing {
 
 	public static void main(String[] args) {
-		node head = new node(10);
-		head.next = new node(22);
-		head.next.next = new node(55);
+		Node head = new Node(10);
+		head.next = new Node(22);
+		head.next.next = new Node(55);
 		recrusive(head);
 		
 
 	}
-public static void recrusive(node head) {
-	node curr = head;
+public static void recrusive(Node head) {
+	Node curr = head;
 	if(curr == null) {
 		return;
 		

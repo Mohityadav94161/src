@@ -19,12 +19,7 @@ public class codA {
 				System.out.println(1);
 				continue;
 			}
-			for(int i =0  ; i<100 ;i++ ) {
-				int sdkdkj =i;
-			}
-            for(int i =0  ; i<100 ;i++ ) {
-				int sdkg = i+i;
-			}
+			
 			boolean flag = true;
 			   for(int i =1  ;i< s.length()-1; i++) {
 				  if(valided(s.charAt(i))) {

@@ -1,3 +1,6 @@
+package Graph;
+
+
 import java.util.*;
 public class BellmanFord {
     public static void put(ArrayList<ArrayList<Integer>>adj,int v , int u , int mat[][],int weight ) {

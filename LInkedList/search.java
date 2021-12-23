@@ -1,12 +1,12 @@
 package LInkedList;
-class node{
-	int data;
-	node next;
-	node(int x){
-		data = x;
-		next = null;
-	}
-}
+//class node{
+//	int data;
+//	node next;
+//	node(int x){
+//		data = x;
+//		next = null;
+//	}
+//}
 
 public class search {
 
